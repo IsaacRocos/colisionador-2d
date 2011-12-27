@@ -1,0 +1,70 @@
+1) Estructura:
+
+a- un colisionador tiene un arreglo de cajas de colisión y un centro de rotación.
+
+b- una caja de colisión tiene un arreglo de círculos.
+
+c- un círculo tiene una posición y un radio.
+
+d- adicionalmente podría convenir tener una clase o struct rectángulo.
+
+e- para simular la altura de los objetos en 2D, cada caja de colisión ocupa uno o más "niveles". Sólo podrán chocar objetos en el mismo nivel.
+
+
+2) Funcionalidad (el usuario (los miembros públicos) trabaja directamente sobre el colisionador, no sobre las cajas ni los circulos):
+
+a- Constructor (en principio el colisionador es el centro de rotación y una sola caja de colisión con su correspondiente nivel).
+
+b- Desplazar. 
+
+c- Rotar.
+
+d- a un colisionador se le pueden agregar o quitar cajas de colisión.
+
+e- detección de colisiones entre colisionadores
+
+f- volver el colisionador a su posición anterior (para esto la clase/struct debe guardar la información necesaria).
+
+g- posibilidad de cambiar el nivel de una caja de colisión.
+
+h- detección de colisiones con bordes.
+
+
+3) Implementación:
+
+a- Al desplazar se debe generar una caja envolvente que abarque la posicion anterior y la actual, para evitar el traspaso de objetos a velocidades altas.
+
+b- método para generar caja de colisiones a partir de un rectángulo  (crear clase o struct "Rect"). Consiste en reemplazar con círculos las caras internas del rectángulo (solo las caras, el interior no es necesario). Los círculos tendrán diámetro impar (2*radio + 1), por lo que este método debe determinar por qué nro. impar es divisible la longitud de cada lado de la caja, para crear la cantidad de círculos correspondiente, manteniendo cierta precisión mínima. También hay que tener en cuenta el caso de que la longitud no sea divisible por ninguno de los números impares utilizados.
+
+c- sistema de niveles.
+
+4) Tener en cuenta a futuro:
+
+a- definir una forma de cuantificar la precisión del modelo.
+
+b- hacer el nivel de precisión regulable por el usuario. La precisión podría ser fijada a nivel de cada caja de colisión.
+
+c- pensar mejoras en el rendimiento (en el caso de que valga la pena).
+
+
+Etapas del desarrollo:
+
+nota: la idea es hacer TDD e ir creando las estructuras del colisionador a medida que se avanza con cada una de estas pruebas.
+
+1ª: 3.b y 2.a.
+
+2ª: 2.b y 2.c.
+
+3ª: 2.e.
+
+4ª: 3.a.
+
+5ª: 2.d.
+
+6ª: 2.f.
+
+7ª: 3.c.
+
+8ª: 2.g y 2.h.
+
+9ª: pruebas de rendimiento en diversos casos, comparando con sistema píxel por píxel (y si no funca, mandar todo a la mierda).
