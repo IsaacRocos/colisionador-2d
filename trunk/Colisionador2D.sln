@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual C++ Express 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Colisionador2D", "src\app\Colisionador2D.vcproj", "{0BC4B5FB-D5B0-4872-9CF1-BCE552D1E231}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Colisionador2D", "src\app\Colisionador2D.vcproj", "{AAA229A8-0E02-4346-98AB-077519E9F4A9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Colisionador2DPruebas", "src\test\Colisionador2DPruebas.vcproj", "{3061E55F-D3C0-473F-B791-1AF62E35DF61}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PruebasColisionador", "src\test\PruebasColisionador.vcproj", "{8E95B9A8-2593-4421-8B8C-07F2CE16451E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BC4B5FB-D5B0-4872-9CF1-BCE552D1E231}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0BC4B5FB-D5B0-4872-9CF1-BCE552D1E231}.Debug|Win32.Build.0 = Debug|Win32
-		{0BC4B5FB-D5B0-4872-9CF1-BCE552D1E231}.Release|Win32.ActiveCfg = Release|Win32
-		{0BC4B5FB-D5B0-4872-9CF1-BCE552D1E231}.Release|Win32.Build.0 = Release|Win32
-		{3061E55F-D3C0-473F-B791-1AF62E35DF61}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3061E55F-D3C0-473F-B791-1AF62E35DF61}.Debug|Win32.Build.0 = Debug|Win32
-		{3061E55F-D3C0-473F-B791-1AF62E35DF61}.Release|Win32.ActiveCfg = Release|Win32
-		{3061E55F-D3C0-473F-B791-1AF62E35DF61}.Release|Win32.Build.0 = Release|Win32
+		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Debug|Win32.Build.0 = Debug|Win32
+		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Release|Win32.ActiveCfg = Release|Win32
+		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Release|Win32.Build.0 = Release|Win32
+		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Debug|Win32.Build.0 = Debug|Win32
+		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Release|Win32.ActiveCfg = Release|Win32
+		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
