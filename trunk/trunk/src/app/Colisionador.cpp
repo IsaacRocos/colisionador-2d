@@ -1,12 +1,19 @@
-// compile with: /EHsc /LD
 #include "Colisionador.h"
-#include <stdexcept>
-
-using namespace std;
 
 namespace Colisionador2D{
 
-    /*double MyMathFuncs::Add(double a, double b){
-        return a + b;
-    }*/
+	Rect::Rect(int x, int y, unsigned int w, unsigned int h){
+	}
+
+	//////////////////////
+
+	RectCirc* Rect::Circularizar(unsigned int divisorHorizontal, unsigned int divisorVertical){
+
+		return NULL;
+	}
+
+	////////////////////
+
+	void Colisionador::foo(){
+	}
 }
