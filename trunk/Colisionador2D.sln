@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual C++ Express 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Colisionador2D", "src\app\Colisionador2D.vcproj", "{AAA229A8-0E02-4346-98AB-077519E9F4A9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Colisionador2D", "src\app\Colisionador2D.vcproj", "{FC5D8B88-E336-4378-B1E7-2789E7A54115}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PruebasColisionador", "src\test\PruebasColisionador.vcproj", "{8E95B9A8-2593-4421-8B8C-07F2CE16451E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColisionadorPruebas", "src\test\ColisionadorPruebas.vcproj", "{5629A6A6-87CD-4BD2-AE0F-4ABA79052CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Debug|Win32.ActiveCfg = Debug|Win32
-		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Debug|Win32.Build.0 = Debug|Win32
-		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Release|Win32.ActiveCfg = Release|Win32
-		{AAA229A8-0E02-4346-98AB-077519E9F4A9}.Release|Win32.Build.0 = Release|Win32
-		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Debug|Win32.Build.0 = Debug|Win32
-		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Release|Win32.ActiveCfg = Release|Win32
-		{8E95B9A8-2593-4421-8B8C-07F2CE16451E}.Release|Win32.Build.0 = Release|Win32
+		{FC5D8B88-E336-4378-B1E7-2789E7A54115}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC5D8B88-E336-4378-B1E7-2789E7A54115}.Debug|Win32.Build.0 = Debug|Win32
+		{FC5D8B88-E336-4378-B1E7-2789E7A54115}.Release|Win32.ActiveCfg = Release|Win32
+		{FC5D8B88-E336-4378-B1E7-2789E7A54115}.Release|Win32.Build.0 = Release|Win32
+		{5629A6A6-87CD-4BD2-AE0F-4ABA79052CE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5629A6A6-87CD-4BD2-AE0F-4ABA79052CE1}.Debug|Win32.Build.0 = Debug|Win32
+		{5629A6A6-87CD-4BD2-AE0F-4ABA79052CE1}.Release|Win32.ActiveCfg = Release|Win32
+		{5629A6A6-87CD-4BD2-AE0F-4ABA79052CE1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

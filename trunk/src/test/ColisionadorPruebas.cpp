@@ -1,6 +1,4 @@
 #include <UnitTest++.h>
-
-#define private public
 #include "../app/Colisionador.h"
 
 using namespace Colisionador2D;
