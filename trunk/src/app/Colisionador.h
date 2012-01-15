@@ -1,11 +1,12 @@
-#ifndef COLISIONADOR_H
-#define COLISIONADOR_H
+//#ifndef COLISIONADOR_H
+//#define COLISIONADOR_H
+#pragma once
 
-#include <vector>
+//#include <vector>
 
-namespace Colisionador2D{
+//namespace Colisionador2D{
 
-	struct Circ{
+	/*struct Circ{
 		int x;
 		int y;
 		unsigned int r;
@@ -15,27 +16,28 @@ namespace Colisionador2D{
 
 	struct RectCirc{
 		std::vector<Circ> vectorSup, vectorIzq, vectorInf, vectorDer;
-	};
+	};*/
 
 	//////////////////
 
 	class Rect{
+	
 		int x;
 		int y;
 		unsigned int w;
 		unsigned int h;
 
 	public:
-		Rect(int x, int y, unsigned int w, unsigned int h);
-		RectCirc* Circularizar(unsigned int divisorHorizontal, unsigned int divisorVertical);
+		Rect(int x/*, int y, unsigned int w, unsigned int h*/);
+		//RectCirc* Circularizar(unsigned int divisorHorizontal, unsigned int divisorVertical);
 	};
 
 	//////////////////
 
-    class Colisionador{
+    /*class Colisionador{
 	public:
 		void foo();
-    };
-}
+    };*/
+//}
 
-#endif //COLISIONADOR_H
+//#endif //COLISIONADOR_H
