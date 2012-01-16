@@ -13,7 +13,8 @@
 #define COLISIONADOR2D_API __declspec(dllimport)
 #endif
 
-#include <vector>
+#include <iostream>
+//#pragma warning( disable: 4251 )
 
 //extern COLISIONADOR2D_API int nColisionador2D;
 
@@ -34,7 +35,19 @@ namespace Colisionador2D{
 	///////////////////
 
 	struct COLISIONADOR2D_API RectCirc{
-		std::vector<Circ> vectorSup, vectorIzq, vectorInf, vectorDer;
+		//std::vector<Circ> vectorSup, vectorIzq, vectorInf, vectorDer;
+
+		Circ* vectorSup, vectorIzq, vectorInf, vectorDer;
+		unsigned int lenHorizontal, lenVertical;
+
+		/*Circ VecSup(unsigned int i);
+		Circ VecIzq(unsigned int i);
+		Circ VecInf(unsigned int i);
+		Circ VecDer(unsigned int i);
+		size_t LenVecSup();
+		size_t LenVecIzq();
+		size_t LenVecInf();
+		size_t LenVecDer();*/
 	};
 
 	//////////////////
