@@ -1,0 +1,3 @@
+Sistema básico de colisiones pensado para juegos en 2D que requieran cierto nivel de precisión (lo cual impide usar círculos para representar todos los objetos), en los que haya objetos que puedan rotar (lo cual complica el representar a los objetos con rectangulos), y tratando de conseguir el mejor rendimiento posible.
+
+El objetivo es conseguir algo que en estos casos particulares rinda mejor que la combinación caja envolvente + colision píxel por píxel, con una baja de precisión lo menor posible. Se basa en usar conjuntos de círculos en lugar de rectángulos para resolver el problema de la rotación (además estoy de vacaciones y no tengo nada mejor que hacer).
